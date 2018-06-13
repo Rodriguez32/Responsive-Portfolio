@@ -194,20 +194,115 @@ input[type=submit]:hover {
     position: fixed;
     width: 100%;
 }
+ /*      new styles       */
+
+ body {
+     background-color: lightgreen;
+ }
+
+
 
 /* media queries   */
 
-@media screen and (max-width: 640px)
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header__links{
+        margin: 10px;
+    }
+
+    .col-block {
+        width: 50%;
+        display: block;
+        float: left;
+    }
+ 
+    .col-links {
+        width: 50%;
+        float: left;
+        display: block;
+        text-align: right;
+    }
+
+    .about__image {
+        float: left;
+        width: 40%;
+        height: auto;
+        padding: 0 26px 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+
+    body {
+        background-color: lightblue;
+    }
+
+    .about__image {
+        float: left;
+        padding: 0 26px 0 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .col-block {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .col-links {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .block__name {
+        height: 56px;
+        line-height: 56px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .header__container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .block__links {
+        line-height: 36px;
+        height: 36px;
+        position: relative;
+        margin-left: 25%;
+        margin-right: 25%;
+        float: left;
+        text-align: center;
+    }
+
+    .links__block {
+        line-height: 38px;
+    }
+
+    .minWidth__header {
+        width: 100%;
+    }
+
+    .col-block {
+        width: 100%;
+    }
+
+    .header__links {
+        margin: 0 15px;
+        height: 36px;
+    }
+
     .header__background {
         position: static;
     }
-
-
-@media screen and (max-width: 980px) {
-    index.html: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
 }
 
-
-@media screen and (max-width: 768px)
-
-@media screen and (max-width: 640px)
